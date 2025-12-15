@@ -244,6 +244,7 @@ screens = [
                     filename="~/.config/qtile/Assets/1.png",
                 ),
                 widget.CurrentLayout(
+                    mode="icon",
                     custom_icon_paths=["~/.config/qtile/Assets/layout"],
                     background="#343F44",
                     scale=0.50,

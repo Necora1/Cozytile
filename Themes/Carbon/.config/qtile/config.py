@@ -234,6 +234,7 @@ screens = [
                 widget.Spacer(length=8, background="#CCCCCC"),
                 widget.Image(filename="~/.config/qtile/Assets/1.png"),
                 widget.CurrentLayout(
+                    mode="icon",
                     custom_icon_paths=["~/.config/qtile/Assets/layout"],
                     background="#CCCCCC",
                     scale=0.50,
